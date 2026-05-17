@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const geist = Geist({ subsets: ["latin"] });
 
@@ -103,6 +104,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
       </body>
+      <GoogleAnalytics gaId="G-FKXZ26HYS4" />
     </html>
   );
 }
