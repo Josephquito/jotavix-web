@@ -1,11 +1,21 @@
-import Link from "next/link";
+"use client";
 
 export default function WhatsAppWidget() {
+  const handleClick = () => {
+    if (typeof window !== "undefined" && (window as any).gtag) {
+      (window as any).gtag("event", "whatsapp_click", {
+        event_category: "engagement",
+        event_label: "widget_flotante",
+      });
+    }
+  };
+
   return (
     <a
       href="https://wa.me/593979988113"
       target="_blank"
       rel="noopener noreferrer"
+      onClick={handleClick}
       className="fixed bottom-10 right-6 md:right-6 left-1/2 md:left-auto -translate-x-1/2 md:translate-x-0 z-50 flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold px-8 py-3 rounded-full shadow-lg transition-colors w-72 md:w-auto"
     >
       <svg

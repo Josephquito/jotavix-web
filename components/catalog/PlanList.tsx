@@ -17,6 +17,15 @@ export default function PlanList({ plans, platformName }: Props) {
     `Hola, quiero comprar ${platformName} - ${selected.name}`,
   );
 
+  const handleClick = () => {
+    if (typeof window !== "undefined" && (window as any).gtag) {
+      (window as any).gtag("event", "whatsapp_click", {
+        event_category: "engagement",
+        event_label: `comprar_${platformName}_${selected.name}`,
+      });
+    }
+  };
+
   return (
     <div className="flex flex-col gap-6">
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -34,6 +43,7 @@ export default function PlanList({ plans, platformName }: Props) {
         href={`https://wa.me/593979988113?text=${message}`}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={handleClick}
         className="bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-full text-center transition-colors text-sm"
       >
         Comprar por WhatsApp
