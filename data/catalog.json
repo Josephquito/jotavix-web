@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "netflix",
+    "name": "Netflix",
+    "image": "/images/Netflix.png",
+    "visible": true,
+    "featured": true,
+    "plans": [{ "name": "1 mes", "price": 3.5, "visible": true }]
+  },
+  {
+    "slug": "spotify",
+    "name": "Spotify",
+    "image": "/images/Spotify.png",
+    "visible": true,
+    "featured": true,
+    "plans": [
+      { "name": "1 mes", "price": 3.0, "visible": true },
+      { "name": "3 meses", "price": 7.5, "visible": true }
+    ]
+  },
+  {
+    "slug": "disney-plus",
+    "name": "Disney+",
+    "image": "/images/Disney.png",
+    "visible": true,
+    "plans": [
+      { "name": "1 mes - sin ESPN", "price": 2.0, "visible": true },
+      {
+        "name": "1 mes — con ESPN",
+        "price": 4.0,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "slug": "hbo max",
+    "name": "Hbo Max",
+    "image": "/images/Hbo max.png",
+    "visible": true,
+    "featured": true,
+    "plans": [
+      { "name": "1 mes", "price": 1.75, "visible": true },
+      { "name": "3 meses", "price": 4.0, "visible": true }
+    ]
+  },
+  {
+    "slug": "prime-video",
+    "name": "Prime Video",
+    "image": "/images/Prime video.png",
+    "visible": true,
+    "plans": [{ "name": "1 mes", "price": 2.0, "visible": true }]
+  },
+  {
+    "slug": "crunchyroll",
+    "name": "Crunchyroll",
+    "image": "/images/Crunchyroll.png",
+    "visible": true,
+    "featured": true,
+    "plans": [
+      { "name": "3 meses", "price": 3.0, "visible": true },
+      { "name": "6 meses", "price": 5.0, "visible": true },
+      { "name": "12 meses", "price": 8.0, "visible": true }
+    ]
+  },
+  {
+    "slug": "canva",
+    "name": "Canva",
+    "image": "/images/Canva.png",
+    "visible": true,
+    "featured": true,
+    "plans": [{ "name": "12 meses", "price": 4.0, "visible": true }]
+  },
+  {
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "image": "/images/Chatgpt.png",
+    "visible": true,
+    "plans": [{ "name": "1 mes", "price": 4.5, "visible": true }]
+  },
+  {
+    "slug": "capcut",
+    "name": "CapCut",
+    "image": "/images/Capcut.png",
+    "visible": true,
+    "plans": [{ "name": "1 mes", "price": 3.5, "visible": true }]
+  },
+  {
+    "slug": "deezer",
+    "name": "Deezer",
+    "image": "/images/Deezer.png",
+    "visible": true,
+    "plans": [{ "name": "3 meses", "price": 3.0, "visible": true }]
+  },
+  {
+    "slug": "ecdf",
+    "name": "ECDF",
+    "image": "/images/ECDF.png",
+    "visible": true,
+    "plans": [
+      {
+        "name": "1 mes — App y Web",
+        "price": 3.5,
+        "visible": true
+      },
+      {
+        "name": "1 mes — YouTube",
+        "price": 3.5,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "slug": "iptv-smarters",
+    "name": "IPTV Smarters Pro",
+    "image": "/images/IPTV.png",
+    "visible": true,
+    "plans": [
+      { "name": "1 mes", "price": 3.5, "visible": true },
+      { "name": "3 meses", "price": 9.0, "visible": true }
+    ]
+  },
+  {
+    "slug": "flujo-tv",
+    "name": "Flujo TV",
+    "image": "/images/Flujo.png",
+    "visible": true,
+    "featured": true,
+    "plans": [
+      { "name": "1 dispositivo — 1 mes", "price": 2.5, "visible": true },
+      { "name": "Cuenta completa — 1 mes", "price": 5.5, "visible": true },
+      { "name": "Cuenta completa — 3 meses", "price": 15.0, "visible": true },
+      { "name": "Cuenta completa — 7 meses", "price": 30.0, "visible": true },
+      { "name": "Cuenta completa — 14 meses", "price": 50.0, "visible": true }
+    ]
+  },
+  {
+    "slug": "vix-premium",
+    "name": "Vix Premium",
+    "image": "/images/Vix.png",
+    "visible": true,
+    "plans": [
+      { "name": "1 mes", "price": 1.0, "visible": true },
+      { "name": "3 meses", "price": 2.5, "visible": true }
+    ]
+  }
+]
