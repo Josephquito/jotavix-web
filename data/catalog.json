@@ -5,7 +5,7 @@
     "image": "/images/Netflix.png",
     "visible": true,
     "featured": true,
-    "plans": [{ "name": "1 mes", "price": 3.5, "visible": true }]
+    "plans": [{ "name": "1 mes", "price": 2.99, "visible": true }]
   },
   {
     "slug": "spotify",
@@ -75,7 +75,7 @@
     "name": "ChatGPT",
     "image": "/images/Chatgpt.png",
     "visible": true,
-    "plans": [{ "name": "1 mes", "price": 4.5, "visible": true }]
+    "plans": [{ "name": "1 mes", "price": 6.0, "visible": true }]
   },
   {
     "slug": "capcut",
